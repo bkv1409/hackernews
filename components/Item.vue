@@ -39,7 +39,7 @@ export default {
     }
   },
   methods: {
-    isAbsolute(url) {
+    isAbsolute (url) {
       return /^https?:\/\//.test(url)
     }
   }
